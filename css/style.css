@@ -47,6 +47,28 @@ body {
   line-height: 60px;
 }
 
+.navibar li {
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  width: 150px;
+  text-transform: uppercase;
+}
+
+.navibar li a:link,
+.navibar li a:visited {
+  font-family: "Mountains-of-Christmas";
+  color: #5f5b5b;
+  text-decoration: none;
+}
+
+.navibar li a:hover {
+  font-family: "Mountains-of-Christmas";
+  color: #aca5a5;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
 .texto h1 {
   font-size: 56px;
 }
@@ -121,4 +143,12 @@ img {
     rgba(168, 223, 193, 0.4) 1,
     rgba(183, 196, 200, 0.2)
   );
+}
+
+.logo figure {
+  text-align: center;
+}
+
+.logo-img {
+  width: 240px;
 }
