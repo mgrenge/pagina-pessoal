@@ -4,54 +4,55 @@
 
 body {
   color: #303030;
-  background-color: #ecd6ff;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(176, 148, 233, 1) 100%
+  );
 }
 
 .container {
   width: 72%;
-  margin: 120px auto;
+  margin: 100px auto;
   padding: 20px;
   background-color: #ffffff;
   border-radius: 10px;
+  box-shadow: 5px 5px 10px rgb(128, 105, 117);
+  position: sticky;
+  top: 20px;
 }
 
 .topo {
   font-family: "Mountains-of-Christmas";
   color: #5f5b5b;
-  padding: 20px;
-  background-color: #e5d4f7;
-  position: relative;
-  height: 200px;
+  padding: 20px 70px;
+  background-color: rgb(203 179 215);
+  height: auto;
   border-radius: 10px;
-}
-
-.topo figure {
-  display: inline-block;
-  width: 20%;
-  text-align: center;
+  box-shadow: 5px 5px 4px rgb(128, 105, 117);
 }
 
 .avatar {
-  width: 200px;
-  display: inline-block;
-  padding: 0px 60px;
+  width: 20%;
+  float: left;
 }
 
-.texto {
+.nome {
   font-family: "Mountains-of-Christmas";
-  display: inline-block;
-  width: 79.4%;
-  position: relative;
   text-align: center;
-  top: -30px;
-  line-height: 60px;
+}
+
+.navibar {
+  font-family: "Mountains-of-Christmas";
+  text-align: center;
+  padding: 85px 0 0 0;
 }
 
 .navibar li {
-  font-size: 16px;
   font-weight: bold;
   display: inline-block;
-  width: 150px;
+  width: 20%;
   text-transform: uppercase;
 }
 
@@ -69,17 +70,21 @@ body {
   font-weight: bold;
 }
 
-.texto h1 {
-  font-size: 56px;
+.icones {
+  text-align: center;
 }
 
-.texto h2 {
-  font-size: 26px;
-}
-
-.texto p {
+.icones p {
   display: inline-block;
-  padding: 5px;
+  padding: 15px 5px;
+}
+
+.nome h1 {
+  font-size: 4rem;
+}
+
+.nome h2 {
+  font-size: 2rem;
 }
 
 h3 {
@@ -143,12 +148,4 @@ img {
     rgba(168, 223, 193, 0.4) 1,
     rgba(183, 196, 200, 0.2)
   );
-}
-
-.logo figure {
-  text-align: center;
-}
-
-.logo-img {
-  width: 240px;
 }
